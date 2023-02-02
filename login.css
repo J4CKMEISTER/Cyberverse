@@ -1,0 +1,162 @@
+
+.modal-content
+{
+
+    width: 450px;
+    height: 530px;
+    margin-top: 50px;
+    color:white;
+    background-image:url("log.png");
+    background-size: cover;
+
+
+}
+
+.modal-content-register
+{
+
+    width: 450px;
+    height: 750px;
+    margin-top: -20px;
+    color:white;
+    background-image:url("log.png");
+    background-size: cover;
+
+
+}
+
+.username-input, .password-input, #email-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.loginbtn, .cancelbtn, .registerbtn {
+    background-color:#0060B6;;
+    color:white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.loginbtn:hover, .cancelbtn:hover, .registerbtn:hover {
+    background-color:#00B2EE; 
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.imgcontainer-register {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    padding-top: 20px;
+}
+
+.container-register {
+    padding: 16px;
+    padding-bottom: 20px;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+.spacing{
+    padding-right: 16px;
+}
+.form_a{
+    text-decoration: none;
+    color:white;
+}
+span.pss  {
+
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.pss {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position:relative;
+    left: 300px;
+    top: -170px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: blue;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}

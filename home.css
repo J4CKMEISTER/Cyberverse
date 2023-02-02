@@ -1,0 +1,235 @@
+.main-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+    opacity: 0.3;
+}
+.border {
+    border-radius: 25px;
+    background: rgba(52, 152, 219, 0.3);
+    padding: 20px; 
+    width: 90%;
+    height: auto; 
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-home{
+    text-align: center;
+    position: relative;
+}
+.span-control{
+    text-transform: uppercase;
+    display: block;
+}
+.text1{
+    color: white;
+    font-size: 3.9vw;
+    font-weight: 700;
+    margin-top: -3vw;
+    letter-spacing: 6px;
+    animation: text 3s;
+}
+.text2{
+    font-size: 2vw;
+    color: white;
+    text-decoration: underline overline;
+    animation: text2 4s;
+}
+
+@keyframes text {
+    0%{
+        opacity: 0;
+
+    }
+    30%{
+        letter-spacing: 15px;
+
+    }
+    85%{
+        opacity: 1;
+        letter-spacing: 6px;
+
+    }
+}
+@keyframes text2{
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.styletext{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button {
+    background-color: #42C0FB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #00A0C6;
+}
+h1 {
+    color: #0060B6;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1:hover 
+{
+    color: #00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+* {box-sizing: border-box}
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-top: 50px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+#timer {
+    font-size: 2.9vw;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: -10vw;
+    margin-left: 39vw;
+}
+
+.timer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.timer img{
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    width: 30%;
+
+  }
+  
+  .container img {
+    width: 135%;
+    height: auto;
+  }
+  
+  .container .btn {
+    width:25%;
+    font-weight: bolder;
+    position: absolute;
+    top:90.5%;
+    left: 118%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: blue;
+  }
