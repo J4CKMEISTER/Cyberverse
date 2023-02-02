@@ -1,0 +1,176 @@
+tr td label{
+    width: 200px;
+    display: inline-block;
+}
+#header{
+    width:100%;
+    height:300px;
+    background-image: url("adminpic.jpg");
+    color:white;
+    background-size: cover;
+}
+#sidebar{
+    width:300px;
+    height: 5000px;
+    background: #00B2EE;
+    float:left;
+    clear:both;
+
+}
+#data{
+    height:700px;
+    background:#4DD0E1;
+    height: 5000px;
+
+
+}
+#adminlogo{
+    background:white;
+    border-radius: 50px;
+    width:120px;
+    height:100px;
+}
+.side-content{
+    color:white;
+    list-style: none;
+    padding:20px;
+    font-size:large;
+
+}
+.side-content:hover{
+    background:#0060B6;
+}
+
+#namebox, #add_category ,#price
+{       
+    width:auto;
+    height:50px;
+    border-style: solid;
+    background: transparent;
+    border-color:white;
+
+
+}
+
+input[type="submit"], .btnAdmin  {
+    width:auto;
+    height:50px;
+    background-color: #00B2EE;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover, .btnAdmin:hover{
+    background-color: #0060B6;
+
+}
+
+/*red button*/
+.btnAdminRed  {
+    width:auto;
+    height:50px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.btnAdminRed:hover{
+    background-color: #e50000;
+
+}
+
+#namebox::placeholder, #add_category::placeholder, newProductIMG::placeholder,
+#submit::placeholder, #quantity::placeholder, #price::placeholder{
+    color:white;
+}
+
+
+
+
+table{
+    margin-left:20%;
+
+}
+.table_Style{
+    padding:20px;
+}
+
+#add_div , #edit_div , #update_div , #view_div , #fulfill_div , #newFeature_div {
+    display:none;
+    border-style: solid ;
+    border-color: #00B2EE;
+    border-width: thick;
+}
+
+
+.hl_style{
+    color:White;
+    text-decoration: underline; 
+}
+
+.orderTable{
+
+
+    font-size:large;
+}
+.table_Style2{
+    padding:20px;
+    border: 1px solid black;
+}
+.table_Style3{
+    padding:20px;
+    border: 1px solid black;
+    color:black;
+}
+
+
+#order1:hover , #order2:hover{
+    background-color: #0060B6;
+
+}
+
+
+@media screen and (max-width: 1500px) {
+    #sidebar  {
+        display: block;
+        float: left;
+        width: 30%;
+        height: 5000px;
+        clear:both;
+    }
+    #data{
+        display: block;
+        float: right;
+        width: 70%;
+        height: 5000px;
+
+
+    }
+    table{
+        margin-left: 0%;
+
+
+    }
+    td{
+        padding:20px;
+    }
+    table th{
+        display:none;
+    }
+
+    table tr td {
+        display: block;
+        text-align: center;
+    }
+
+
+
+}
